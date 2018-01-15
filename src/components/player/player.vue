@@ -366,7 +366,6 @@
         this.setPlayList(list)
       },
       resetCurrentIndex(list) {
-        console.log(this.currentSong.id)
         let index = list.findIndex((item) => {
           return item.id === this.currentSong.id
         })
