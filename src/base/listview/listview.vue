@@ -32,7 +32,7 @@
       <h1 class="fixed-title">{{fixedTitle}}</h1>
     </div>
     <div v-show="!data.length" class="loading-container">
-    <loading></loading>
+      <loading></loading>
     </div>
   </scroll>
 </template>

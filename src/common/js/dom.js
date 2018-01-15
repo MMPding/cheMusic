@@ -23,6 +23,7 @@ export function getData(el, name, val) {
   return el.getAttribute(name)
 }
 
+// 测试不同版本的浏览器
 let elementStyle = document.createElement('div').style
 
 let vendor = (() => {

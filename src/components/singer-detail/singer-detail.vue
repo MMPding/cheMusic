@@ -10,6 +10,7 @@
   import {ERR_OK} from 'api/config'
   import {createSong} from 'common/js/song'
   import MusicList from 'components/music-list/music-list'
+  // import {getLyric} from 'api/song'
 
   export default {
     data() {
